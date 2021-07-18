@@ -1,3 +1,6 @@
+# simple_blog_front_end
+The source code of the Back End of a simple website blog, created using MongoDB, ExpressJs, ReactJs, NodeJs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
