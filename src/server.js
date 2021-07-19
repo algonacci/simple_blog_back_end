@@ -4,6 +4,10 @@ const { MongoClient } = require("mongodb");
 
 const app = express();
 
+let headers = new Headers();
+
+headers.append("Access-Control-Allow-Origin", "https://simple-blog-back-end.herokuapp.com");
+
 app.use(bodyParser.json());
 
 const withDB = async (operations, res) => {
